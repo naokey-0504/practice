@@ -180,6 +180,7 @@ public static class BattleFunc
 
 	/// <summary>
 	/// 吹き飛ばし処理
+	///   →実装アルゴリズムは、https://qiita.com/nao-key_0504/private/06dc3d7d351c6f9716a7 を御参照ください。
 	/// </summary>
 	/// <returns>ユニットと吹き飛ばし後の座標の連想配列</returns>
 	/// <param name="center">吹き飛ばしの中心</param>
