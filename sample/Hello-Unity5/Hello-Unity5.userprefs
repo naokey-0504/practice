@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Bayes/Modules/Thief.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Bayes/BayesController.cs" Line="63" Column="25" />
+      <File FileName="Assets/Scripts/Bayes/Modules/Treasure.cs" Line="16" Column="11" />
+      <File FileName="Assets/Scripts/Bayes/Modules/BayesUI.cs" Line="98" Column="32" />
+      <File FileName="Assets/Scripts/Bayes/Modules/Thief.cs" Line="64" Column="29" NotebookId="1" />
+      <File FileName="Assets/Scripts/Bayes/Modules/MemberShipFunc.cs" Line="8" Column="17" NotebookId="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/yamamoto_naoki/Desktop/Work/random-engineer/yamamoto_naoki/個人研究/Unity/Hello-Unity5/Hello-Unity5/Assets/Scripts/Bayes/Bayes.cs" line="19" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
