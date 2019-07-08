@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Scripts
 {
 	public class EditController : MonoBehaviour {
-
+		
 		// Use this for initialization
 		void Start ()
 		{

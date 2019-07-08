@@ -110,6 +110,11 @@ namespace Scripts.UI.Squre
                     int idx = y * colCount + x;
                     go.name = idx.ToString();
                     go.transform.Find("Button/Text").GetComponent<Text>().text = idx.ToString();
+
+                    SqureObject squre = go.GetComponent<SqureObject>();
+                    squre.SetButtonEnter(() => { squre.SetButtonColor(Color.red); });
+                    squre.SetButtonExit(() => { squre.SetButtonColor(Color.white); });
+                    
                 }
             }
         }

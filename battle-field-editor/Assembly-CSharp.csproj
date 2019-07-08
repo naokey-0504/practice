@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BattleFiledEditor\EditController.cs" />
     <Compile Include="Assets\Scripts\BattleFiledEditor\UI\BattleFieldUIManager.cs" />
+    <Compile Include="Assets\Scripts\BattleFiledEditor\UI\PartsList\ListObject.cs" />
     <Compile Include="Assets\Scripts\BattleFiledEditor\UI\Squre\SqureList.cs" />
     <Compile Include="Assets\Scripts\BattleFiledEditor\UI\Squre\SqureObject.cs" />
     <Reference Include="UnityEditor.StandardEvents">

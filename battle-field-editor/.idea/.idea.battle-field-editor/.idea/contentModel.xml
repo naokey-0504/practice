@@ -9,6 +9,9 @@
             <e p="EditController.cs" t="Include" />
             <e p="UI" t="Include">
               <e p="BattleFieldUIManager.cs" t="Include" />
+              <e p="PartsList" t="Include">
+                <e p="ListObject.cs" t="Include" />
+              </e>
               <e p="Squre" t="Include">
                 <e p="SqureList.cs" t="Include" />
                 <e p="SqureObject.cs" t="Include" />
