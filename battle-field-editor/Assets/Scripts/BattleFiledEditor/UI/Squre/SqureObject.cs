@@ -11,12 +11,13 @@ namespace Scripts.UI.Squre
     {
         private Button m_Button;
 
-        private UnityAction m_OnPointerEnter, m_OnPointerExit;
+        private UnityAction m_OnClick, m_OnPointerEnter, m_OnPointerExit;
 
         public void Awake()
         {
             Transform btnTrans = transform.Find("Button");
             m_Button = btnTrans.GetComponent<Button>();
+            m_Button.onClick.AddListener(() => { onClickDelegate(); });
 
             EventTrigger trigger = btnTrans.GetComponent<EventTrigger>();
             trigger.triggers.Add(createEventTriggerEntry(EventTriggerType.PointerEnter, (data) => { onPointerEnterDelegate(); }));
@@ -29,6 +30,14 @@ namespace Scripts.UI.Squre
             entry.eventID = type;
             entry.callback.AddListener(callback);
             return entry;
+        }
+
+        private void onClickDelegate()
+        {
+            if (m_OnClick != null)
+            {
+                m_OnClick.Invoke();                
+            }
         }
 
         private void onPointerEnterDelegate()
@@ -47,6 +56,11 @@ namespace Scripts.UI.Squre
             }
         }
 
+        public void SetButtonClick(UnityEngine.Events.UnityAction onClick)
+        {
+            m_OnClick = onClick;
+        }
+        
         public void SetButtonEnter(UnityEngine.Events.UnityAction onEnter)
         {
             m_OnPointerEnter = onEnter;

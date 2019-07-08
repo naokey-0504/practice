@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList/ListObject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList/ListObject.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/BattleFieldEditor.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BattleFieldEditor.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,50 +62,54 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="120">
-                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                <state relative-caret-position="409">
+                  <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
                   <folding>
-                    <marker date="1562557489268" expanded="true" signature="6:78" ph="..." />
-                    <marker date="1562557489268" expanded="true" signature="100:671" ph="{...}" />
-                    <marker date="1562557489268" expanded="true" signature="156:669" ph="{...}" />
-                    <marker date="1562557489268" expanded="true" signature="263:487" ph="{...}" />
-                    <marker date="1562557489268" expanded="true" signature="516:663" ph="{...}" />
+                    <marker date="1562579986783" expanded="true" signature="6:78" ph="..." />
+                    <marker date="1562579986783" expanded="true" signature="100:1347" ph="{...}" />
+                    <marker date="1562579986783" expanded="true" signature="156:1345" ph="{...}" />
+                    <marker date="1562579986783" expanded="true" signature="386:665" ph="{...}" />
+                    <marker date="1562579986783" expanded="true" signature="694:1339" ph="{...}" />
+                    <marker date="1562579986783" expanded="true" signature="849:1294" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="265">
-                  <caret line="115" column="80" selection-start-line="115" selection-start-column="80" selection-end-line="115" selection-end-column="80" />
+                <state relative-caret-position="94">
+                  <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
                   <folding>
-                    <marker date="1562577479888" expanded="true" signature="6:54" ph="..." />
-                    <marker date="1562577479888" expanded="true" signature="82:4020" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="127:4018" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="353:554" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
-                    <marker date="1562577479888" expanded="true" signature="938:1164" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="1174:1229" ph="/// セットアップ ... " />
-                    <marker date="1562577479888" expanded="true" signature="1257:1303" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="1321:1435" ph="/// 最初のマス目をどこにするかを設定する ... " />
-                    <marker date="1562577479888" expanded="true" signature="1502:1574" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="1592:1759" ph="/// GridLayoutGroupの制約を設定する ... " />
-                    <marker date="1562577479888" expanded="true" signature="1852:1990" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="2000:2113" ph="/// マス目のサイズを設定する ... " />
-                    <marker date="1562577479888" expanded="true" signature="2166:2238" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="2248:2411" ph="/// マス目の数を設定する ... " />
-                    <marker date="1562577479888" expanded="true" signature="2473:2551" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="2561:2620" ph="/// マス目のセットアップ ... " />
-                    <marker date="1562577479888" expanded="true" signature="2654:2808" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="2818:3098" ph="/// マス目を配置する ... " />
-                    <marker date="1562577479888" expanded="true" signature="3214:4012" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="3345:4002" ph="{...}" />
-                    <marker date="1562577479888" expanded="true" signature="3410:3988" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="6:54" ph="..." />
+                    <marker date="1562579321962" expanded="true" signature="82:4555" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="127:4553" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="353:554" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
+                    <marker date="1562579321962" expanded="true" signature="938:1164" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="1174:1229" ph="/// セットアップ ... " />
+                    <marker date="1562579321962" expanded="true" signature="1257:1303" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="1451:1504" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="1522:1636" ph="/// 最初のマス目をどこにするかを設定する ... " />
+                    <marker date="1562579321962" expanded="true" signature="1703:1775" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="1793:1960" ph="/// GridLayoutGroupの制約を設定する ... " />
+                    <marker date="1562579321962" expanded="true" signature="2053:2191" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="2201:2314" ph="/// マス目のサイズを設定する ... " />
+                    <marker date="1562579321962" expanded="true" signature="2367:2439" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="2449:2612" ph="/// マス目の数を設定する ... " />
+                    <marker date="1562579321962" expanded="true" signature="2674:2752" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="2762:2821" ph="/// マス目のセットアップ ... " />
+                    <marker date="1562579321962" expanded="true" signature="2855:3020" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="3030:3310" ph="/// マス目を配置する ... " />
+                    <marker date="1562579321962" expanded="true" signature="3475:4547" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="3606:4537" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="3671:4523" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="4313:4503" ph="{...}" />
+                    <marker date="1562579321962" expanded="true" signature="4359:4481" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -125,21 +122,24 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+                <state relative-caret-position="256">
+                  <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
                   <folding>
-                    <marker date="1562577440105" expanded="true" signature="6:146" ph="..." />
-                    <marker date="1562577440105" expanded="true" signature="174:1913" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="221:1911" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="353:823" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="950:1145" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1192:1325" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1244:1315" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1379:1510" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1430:1500" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1586:1646" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1728:1786" ph="{...}" />
-                    <marker date="1562577440105" expanded="true" signature="1843:1905" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="6:146" ph="..." />
+                    <marker date="1562578520635" expanded="true" signature="174:2308" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="221:2306" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="364:906" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1033:1228" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1268:1403" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1313:1393" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1450:1583" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1502:1573" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1637:1768" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1688:1758" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1844:1897" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="1981:2041" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="2123:2181" ph="{...}" />
+                    <marker date="1562578520635" expanded="true" signature="2238:2300" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -155,6 +155,9 @@
       <find>t</find>
       <find>OnPointerEnter</find>
       <find>SetButtonPointerClick</find>
+      <find>m_OnClick</find>
+      <find>lineupMapSqure</find>
+      <find>setupSqure</find>
     </findStrings>
     <replaceStrings>
       <replace>colNum</replace>
@@ -187,12 +190,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Editor/EditController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/aaa/EditController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Extention/ButtonExtention.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList/ListObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs" />
       </list>
     </option>
   </component>
@@ -314,12 +317,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562549252767</updated>
-      <workItem from="1562549255825" duration="20759000" />
+      <workItem from="1562549255825" duration="22868000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20759000" />
+    <option name="totallyTimeSpent" value="22868000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,12 +347,12 @@
       <window_info anchor="bottom" id="Version Control" sideWeight="0.49893504" weight="0.32953367" />
       <window_info anchor="bottom" id="Unit Tests" sideWeight="0.49840257" weight="0.32953367" />
       <window_info anchor="bottom" id="Terminal" sideWeight="0.49840257" weight="0.32953367" />
-      <window_info active="true" anchor="bottom" id="Event Log" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Performance Profiler" sideWeight="0.49893504" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.32953367" />
@@ -439,68 +442,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding>
-            <marker date="1562557489268" expanded="true" signature="6:78" ph="..." />
-            <marker date="1562557489268" expanded="true" signature="100:671" ph="{...}" />
-            <marker date="1562557489268" expanded="true" signature="156:669" ph="{...}" />
-            <marker date="1562557489268" expanded="true" signature="263:487" ph="{...}" />
-            <marker date="1562557489268" expanded="true" signature="516:663" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="21" column="12" lean-forward="true" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+        <state relative-caret-position="256">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
           <folding>
-            <marker date="1562577440105" expanded="true" signature="6:146" ph="..." />
-            <marker date="1562577440105" expanded="true" signature="174:1913" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="221:1911" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="353:823" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="950:1145" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1192:1325" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1244:1315" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1379:1510" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1430:1500" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1586:1646" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1728:1786" ph="{...}" />
-            <marker date="1562577440105" expanded="true" signature="1843:1905" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="6:146" ph="..." />
+            <marker date="1562578520635" expanded="true" signature="174:2308" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="221:2306" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="364:906" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1033:1228" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1268:1403" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1313:1393" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1450:1583" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1502:1573" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1637:1768" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1688:1758" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1844:1897" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="1981:2041" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="2123:2181" ph="{...}" />
+            <marker date="1562578520635" expanded="true" signature="2238:2300" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="115" column="80" selection-start-line="115" selection-start-column="80" selection-end-line="115" selection-end-column="80" />
+        <state relative-caret-position="94">
+          <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
           <folding>
-            <marker date="1562577479888" expanded="true" signature="6:54" ph="..." />
-            <marker date="1562577479888" expanded="true" signature="82:4020" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="127:4018" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="353:554" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
-            <marker date="1562577479888" expanded="true" signature="938:1164" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="1174:1229" ph="/// セットアップ ... " />
-            <marker date="1562577479888" expanded="true" signature="1257:1303" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="1321:1435" ph="/// 最初のマス目をどこにするかを設定する ... " />
-            <marker date="1562577479888" expanded="true" signature="1502:1574" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="1592:1759" ph="/// GridLayoutGroupの制約を設定する ... " />
-            <marker date="1562577479888" expanded="true" signature="1852:1990" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="2000:2113" ph="/// マス目のサイズを設定する ... " />
-            <marker date="1562577479888" expanded="true" signature="2166:2238" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="2248:2411" ph="/// マス目の数を設定する ... " />
-            <marker date="1562577479888" expanded="true" signature="2473:2551" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="2561:2620" ph="/// マス目のセットアップ ... " />
-            <marker date="1562577479888" expanded="true" signature="2654:2808" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="2818:3098" ph="/// マス目を配置する ... " />
-            <marker date="1562577479888" expanded="true" signature="3214:4012" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="3345:4002" ph="{...}" />
-            <marker date="1562577479888" expanded="true" signature="3410:3988" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="6:54" ph="..." />
+            <marker date="1562579321962" expanded="true" signature="82:4555" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="127:4553" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="353:554" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
+            <marker date="1562579321962" expanded="true" signature="938:1164" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="1174:1229" ph="/// セットアップ ... " />
+            <marker date="1562579321962" expanded="true" signature="1257:1303" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="1451:1504" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="1522:1636" ph="/// 最初のマス目をどこにするかを設定する ... " />
+            <marker date="1562579321962" expanded="true" signature="1703:1775" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="1793:1960" ph="/// GridLayoutGroupの制約を設定する ... " />
+            <marker date="1562579321962" expanded="true" signature="2053:2191" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="2201:2314" ph="/// マス目のサイズを設定する ... " />
+            <marker date="1562579321962" expanded="true" signature="2367:2439" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="2449:2612" ph="/// マス目の数を設定する ... " />
+            <marker date="1562579321962" expanded="true" signature="2674:2752" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="2762:2821" ph="/// マス目のセットアップ ... " />
+            <marker date="1562579321962" expanded="true" signature="2855:3020" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="3030:3310" ph="/// マス目を配置する ... " />
+            <marker date="1562579321962" expanded="true" signature="3475:4547" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="3606:4537" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="3671:4523" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="4313:4503" ph="{...}" />
+            <marker date="1562579321962" expanded="true" signature="4359:4481" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+          <folding>
+            <marker date="1562579986783" expanded="true" signature="6:78" ph="..." />
+            <marker date="1562579986783" expanded="true" signature="100:1347" ph="{...}" />
+            <marker date="1562579986783" expanded="true" signature="156:1345" ph="{...}" />
+            <marker date="1562579986783" expanded="true" signature="386:665" ph="{...}" />
+            <marker date="1562579986783" expanded="true" signature="694:1339" ph="{...}" />
+            <marker date="1562579986783" expanded="true" signature="849:1294" ph="{...}" />
           </folding>
         </state>
       </provider>

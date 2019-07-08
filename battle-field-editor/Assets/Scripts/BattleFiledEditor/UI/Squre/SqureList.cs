@@ -43,6 +43,12 @@ namespace Scripts.UI.Squre
         {
             setupSqure();
         }
+
+        private UnityEngine.Events.UnityAction<Vector3> m_OnClick;
+        public void SetOnClick(UnityEngine.Events.UnityAction<Vector3> onClick)
+        {
+            m_OnClick = onClick;
+        }
         
         /// <summary>
         /// 最初のマス目をどこにするかを設定する
@@ -88,7 +94,7 @@ namespace Scripts.UI.Squre
         /// </summary>
         private void setupSqure()
         {
-            lineupMapSqure(m_SqureBase, m_SqureList, (int)m_SqureNum.x, (int)m_SqureNum.y);
+            lineupMapSqure(m_SqureBase, m_SqureList, (int)m_SqureNum.x, (int)m_SqureNum.y, m_OnClick);
             m_SqureBase.SetActive(false);
         }
 
@@ -99,7 +105,7 @@ namespace Scripts.UI.Squre
         /// <param name="colCount">水平方向のマス数</param>
         /// <param name="rowCount">鉛直方向のマス数</param>
         /// </summary>
-        private static void lineupMapSqure(GameObject squreBase, Transform squreParent, int colCount, int rowCount)
+        private static void lineupMapSqure(GameObject squreBase, Transform squreParent, int colCount, int rowCount, UnityEngine.Events.UnityAction<Vector3> onClick)
         {
             RectTransform rect = squreBase.GetComponent<RectTransform>();
             for (int y = 0; y < rowCount; y++)
@@ -112,9 +118,15 @@ namespace Scripts.UI.Squre
                     go.transform.Find("Button/Text").GetComponent<Text>().text = idx.ToString();
 
                     SqureObject squre = go.GetComponent<SqureObject>();
-                    squre.SetButtonEnter(() => { squre.SetButtonColor(Color.red); });
-                    squre.SetButtonExit(() => { squre.SetButtonColor(Color.white); });
+                    squre.SetButtonEnter(() => { squre.SetButtonColor(new Color(1f, 0f, 0f, 0.5f)); });
+                    squre.SetButtonExit(() => { squre.SetButtonColor(new Color(1f, 1f, 1f, 0.5f)); });
                     
+                    squre.SetButtonClick(() => {
+                        if (onClick != null)
+                        {
+                            onClick.Invoke(squre.transform.position);
+                        }
+                    });
                 }
             }
         }
