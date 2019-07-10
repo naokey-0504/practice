@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
-    </list>
+    <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +29,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
+                <state relative-caret-position="105">
                   <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
                   <folding>
                     <marker date="1562564602145" expanded="false" signature="6:78" ph="..." />
@@ -80,7 +77,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1650">
+                <state relative-caret-position="1485">
                   <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
                   <folding>
                     <marker date="1562579321962" expanded="true" signature="6:54" ph="..." />
@@ -270,12 +267,12 @@
       <updated>1562549252767</updated>
       <workItem from="1562549255825" duration="23770000" />
       <workItem from="1562661057011" duration="523000" />
-      <workItem from="1562719513680" duration="231000" />
+      <workItem from="1562719513680" duration="378000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24524000" />
+    <option name="totallyTimeSpent" value="24671000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -340,7 +337,7 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Extention/ButtonExtention.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="105">
           <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding>
             <marker date="1562564602145" expanded="false" signature="6:78" ph="..." />
@@ -358,6 +355,7 @@
           <caret column="13" selection-start-column="13" selection-end-column="13" />
           <folding>
             <marker date="1562576275970" expanded="true" signature="6:54" ph="..." />
+            <marker date="1562576275970" expanded="true" signature="86:339" ph="{...}" />
             <marker date="1562576275970" expanded="true" signature="132:337" ph="{...}" />
             <marker date="1562576275970" expanded="true" signature="239:331" ph="{...}" />
           </folding>
@@ -366,10 +364,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
+        <state relative-caret-position="1485">
           <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
           <folding>
             <marker date="1562579321962" expanded="true" signature="6:54" ph="..." />
+            <marker date="1562579321962" expanded="true" signature="82:4555" ph="{...}" />
             <marker date="1562579321962" expanded="true" signature="127:4553" ph="{...}" />
             <marker date="1562579321962" expanded="true" signature="353:554" ph="{...}" />
             <marker date="1562579321962" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
