@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="" />
+    <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mapchip/bridge.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mapchip/bridge.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/EditController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/EditController.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/BattleFieldUIManager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/BattleFieldUIManager.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/PartsList.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/PartsList/ListObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/PartsList/ListObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre/SqureList.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre/SqureList.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre/SqureObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre/SqureObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/battle-field-editor.sln" beforeDir="false" afterPath="$PROJECT_DIR$/battle-field-editor.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,89 +54,53 @@
     <expand />
     <select />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="battle-field-editor" />
+  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-                  <folding>
-                    <marker date="1562564602145" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1562564602145" expanded="true" signature="97:276" ph="{...}" />
-                    <marker date="1562564602145" expanded="true" signature="145:274" ph="{...}" />
-                    <marker date="1562564602145" expanded="true" signature="198:206" ph="{...}" />
-                    <marker date="1562564602145" expanded="true" signature="263:271" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList/ListObject.cs">
-              <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="13" selection-start-column="13" selection-end-column="13" />
-                  <folding>
-                    <marker date="1562576275970" expanded="true" signature="6:54" ph="..." />
-                    <marker date="1562576275970" expanded="true" signature="86:339" ph="{...}" />
-                    <marker date="1562576275970" expanded="true" signature="132:337" ph="{...}" />
-                    <marker date="1562576275970" expanded="true" signature="239:331" ph="{...}" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+                <state relative-caret-position="180">
+                  <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
                   <folding>
-                    <marker date="1562579986783" expanded="true" signature="6:78" ph="..." />
-                    <marker date="1562579986783" expanded="true" signature="100:1347" ph="{...}" />
-                    <marker date="1562579986783" expanded="true" signature="156:1345" ph="{...}" />
-                    <marker date="1562579986783" expanded="true" signature="386:665" ph="{...}" />
-                    <marker date="1562579986783" expanded="true" signature="694:1339" ph="{...}" />
-                    <marker date="1562579986783" expanded="true" signature="849:1294" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="6:57" ph="..." />
+                    <marker date="1562735838939" expanded="true" signature="87:2610" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="184:2608" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="401:461" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="489:665" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="592:655" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="675:742" ph="/// フィールドのPrefabをロードする ... " />
+                    <marker date="1562735838939" expanded="true" signature="781:916" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="926:1008" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+                    <marker date="1562735838939" expanded="true" signature="1047:1265" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1275:1384" ph="/// 背景のTextureを設定する ... " />
+                    <marker date="1562735838939" expanded="true" signature="1432:1486" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1496:1561" ph="/// 背景のTextureを反映させる ... " />
+                    <marker date="1562735838939" expanded="true" signature="1600:1677" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1687:1745" ph="/// ステージを出力する ... " />
+                    <marker date="1562735838939" expanded="true" signature="1808:1899" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1990:2602" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="2046:2170" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="2323:2430" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/FieldController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1485">
-                  <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
+                <state relative-caret-position="30">
+                  <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
                   <folding>
-                    <marker date="1562579321962" expanded="true" signature="6:54" ph="..." />
-                    <marker date="1562579321962" expanded="true" signature="82:4555" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="127:4553" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="353:554" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
-                    <marker date="1562579321962" expanded="true" signature="938:1164" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="1174:1229" ph="/// セットアップ ... " />
-                    <marker date="1562579321962" expanded="true" signature="1257:1303" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="1451:1504" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="1522:1636" ph="/// 最初のマス目をどこにするかを設定する ... " />
-                    <marker date="1562579321962" expanded="true" signature="1703:1775" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="1793:1960" ph="/// GridLayoutGroupの制約を設定する ... " />
-                    <marker date="1562579321962" expanded="true" signature="2053:2191" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="2201:2314" ph="/// マス目のサイズを設定する ... " />
-                    <marker date="1562579321962" expanded="true" signature="2367:2439" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="2449:2612" ph="/// マス目の数を設定する ... " />
-                    <marker date="1562579321962" expanded="true" signature="2674:2752" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="2762:2821" ph="/// マス目のセットアップ ... " />
-                    <marker date="1562579321962" expanded="true" signature="2855:3020" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="3030:3310" ph="/// マス目を配置する ... " />
-                    <marker date="1562579321962" expanded="true" signature="3475:4547" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="3606:4537" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="3671:4523" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="4313:4503" ph="{...}" />
-                    <marker date="1562579321962" expanded="true" signature="4359:4481" ph="{...}" />
+                    <marker date="1562730159610" expanded="true" signature="6:78" ph="..." />
+                    <marker date="1562730159610" expanded="true" signature="124:401" ph="{...}" />
+                    <marker date="1562730159610" expanded="true" signature="200:300" ph="{...}" />
+                    <marker date="1562730159610" expanded="true" signature="345:399" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -114,27 +110,53 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+                <state relative-caret-position="288">
+                  <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
                   <folding>
-                    <marker date="1562578520635" expanded="true" signature="6:146" ph="..." />
-                    <marker date="1562578520635" expanded="true" signature="174:2308" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="221:2306" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="364:906" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1033:1228" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1268:1403" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1313:1393" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1450:1583" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1502:1573" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1637:1768" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1688:1758" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1844:1897" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="1981:2041" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="2123:2181" ph="{...}" />
-                    <marker date="1562578520635" expanded="true" signature="2238:2300" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="6:57" ph="..." />
+                    <marker date="1562735838939" expanded="true" signature="87:2610" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="184:2608" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="401:461" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="489:665" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="592:655" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="675:742" ph="/// フィールドのPrefabをロードする ... " />
+                    <marker date="1562735838939" expanded="true" signature="781:916" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="926:1008" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+                    <marker date="1562735838939" expanded="true" signature="1047:1265" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1275:1384" ph="/// 背景のTextureを設定する ... " />
+                    <marker date="1562735838939" expanded="true" signature="1432:1486" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1496:1561" ph="/// 背景のTextureを反映させる ... " />
+                    <marker date="1562735838939" expanded="true" signature="1600:1677" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1687:1745" ph="/// ステージを出力する ... " />
+                    <marker date="1562735838939" expanded="true" signature="1808:1899" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="1990:2602" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="2046:2170" ph="{...}" />
+                    <marker date="1562735838939" expanded="true" signature="2323:2430" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="185">
+                  <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
+                  <folding>
+                    <marker date="1562742533557" expanded="false" signature="6:125" ph="..." />
+                    <marker date="1562742533557" expanded="true" signature="173:2308" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="399:487" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="515:577" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="595:2306" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="678:753" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="903:990" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="1281:1538" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="1356:1528" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="1950:2011" ph="{...}" />
+                    <marker date="1562742533557" expanded="true" signature="2151:2293" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -153,6 +175,7 @@
       <find>m_OnClick</find>
       <find>lineupMapSqure</find>
       <find>setupSqure</find>
+      <find>myData</find>
     </findStrings>
     <replaceStrings>
       <replace>colNum</replace>
@@ -164,11 +187,10 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList/ListObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/FieldController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,6 +205,18 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/BattleFieldCreator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/S.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFiledCreatorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/FiledController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/FieldController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator__.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class3.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs" />
       </list>
     </option>
   </component>
@@ -207,15 +241,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="true" />
-      </pane>
+      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Editor" type="1045f7f1:UnityExplorerNode" />
+              <item name="BattleFieldCreator" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="8711f2a6:AssetsRoot" />
+              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
+              <item name="BattleFiledCreator" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="false" />
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -247,10 +316,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="2940">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="1456">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="2940" />
+      <option name="pid" value="1456" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -267,12 +336,13 @@
       <updated>1562549252767</updated>
       <workItem from="1562549255825" duration="23770000" />
       <workItem from="1562661057011" duration="523000" />
-      <workItem from="1562719513680" duration="378000" />
+      <workItem from="1562719513680" duration="10344000" />
+      <workItem from="1562737238167" duration="4131000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24671000" />
+    <option name="totallyTimeSpent" value="38768000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -284,16 +354,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="785" y="-1057" width="1920" height="1057" extended-state="0" />
-    <editor active="true" />
+    <frame x="785" y="-1057" width="1920" height="1057" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4956822" visible="true" weight="0.2550586" />
-      <window_info id="Structure" order="1" sideWeight="0.50431776" side_tool="true" visible="true" weight="0.2550586" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48704663" visible="true" weight="0.25772098" />
+      <window_info id="Structure" order="1" sideWeight="0.51295334" side_tool="true" weight="0.2550586" />
+      <window_info id="Favorites" order="2" sideWeight="0.51122624" side_tool="true" weight="0.2550586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49893504" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4978701" weight="0.40103626" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.32953367" />
@@ -305,7 +374,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" sideWeight="0.49840257" weight="0.32953367" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49840257" weight="0.32953367" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50106496" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.5021299" side_tool="true" visible="true" weight="0.40103626" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -329,108 +398,125 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>m_Image != null</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/EditController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/EditController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Editor/EditController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/aaa/EditController.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Extention/ButtonExtention.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/EditController.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre/SqureList.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/Squre/SqureObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/BattleFieldCreator.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/BattleFieldUIManager.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        <state relative-caret-position="465">
+          <caret line="31" column="24" lean-forward="true" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
           <folding>
-            <marker date="1562564602145" expanded="false" signature="6:78" ph="..." />
-            <marker date="1562564602145" expanded="true" signature="97:276" ph="{...}" />
-            <marker date="1562564602145" expanded="true" signature="145:274" ph="{...}" />
-            <marker date="1562564602145" expanded="true" signature="198:206" ph="{...}" />
-            <marker date="1562564602145" expanded="true" signature="263:271" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="6:32" ph="..." />
+            <marker date="1562723967358" expanded="true" signature="121:906" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="183:516" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="201:510" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="237:470" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="366:456" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="552:650" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="562:619" ph="/* 他のゲームオブジェクトにアタッチされているか調べる ... */" />
+            <marker date="1562723967358" expanded="true" signature="686:904" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="718:788" ph="{...}" />
+            <marker date="1562723967358" expanded="true" signature="816:852" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/PartsList/ListObject.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/EditController.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/PartsList/ListObject.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="177">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/FieldController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
-            <marker date="1562576275970" expanded="true" signature="6:54" ph="..." />
-            <marker date="1562576275970" expanded="true" signature="86:339" ph="{...}" />
-            <marker date="1562576275970" expanded="true" signature="132:337" ph="{...}" />
-            <marker date="1562576275970" expanded="true" signature="239:331" ph="{...}" />
+            <marker date="1562730159610" expanded="true" signature="6:78" ph="..." />
+            <marker date="1562730159610" expanded="true" signature="124:401" ph="{...}" />
+            <marker date="1562730159610" expanded="true" signature="200:300" ph="{...}" />
+            <marker date="1562730159610" expanded="true" signature="345:399" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureList.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1485">
-          <caret line="123" column="20" selection-start-line="123" selection-start-column="20" selection-end-line="123" selection-end-column="20" />
+        <state relative-caret-position="26">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class2.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
           <folding>
-            <marker date="1562579321962" expanded="true" signature="6:54" ph="..." />
-            <marker date="1562579321962" expanded="true" signature="82:4555" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="127:4553" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="353:554" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="564:830" ph="/// 初期化処理 ... " />
-            <marker date="1562579321962" expanded="true" signature="938:1164" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="1174:1229" ph="/// セットアップ ... " />
-            <marker date="1562579321962" expanded="true" signature="1257:1303" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="1451:1504" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="1522:1636" ph="/// 最初のマス目をどこにするかを設定する ... " />
-            <marker date="1562579321962" expanded="true" signature="1703:1775" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="1793:1960" ph="/// GridLayoutGroupの制約を設定する ... " />
-            <marker date="1562579321962" expanded="true" signature="2053:2191" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="2201:2314" ph="/// マス目のサイズを設定する ... " />
-            <marker date="1562579321962" expanded="true" signature="2367:2439" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="2449:2612" ph="/// マス目の数を設定する ... " />
-            <marker date="1562579321962" expanded="true" signature="2674:2752" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="2762:2821" ph="/// マス目のセットアップ ... " />
-            <marker date="1562579321962" expanded="true" signature="2855:3020" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="3030:3310" ph="/// マス目を配置する ... " />
-            <marker date="1562579321962" expanded="true" signature="3475:4547" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="3606:4537" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="3671:4523" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="4313:4503" ph="{...}" />
-            <marker date="1562579321962" expanded="true" signature="4359:4481" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="6:57" ph="..." />
+            <marker date="1562735838939" expanded="true" signature="87:2610" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="184:2608" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="401:461" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="489:665" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="592:655" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="675:742" ph="/// フィールドのPrefabをロードする ... " />
+            <marker date="1562735838939" expanded="true" signature="781:916" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="926:1008" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+            <marker date="1562735838939" expanded="true" signature="1047:1265" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="1275:1384" ph="/// 背景のTextureを設定する ... " />
+            <marker date="1562735838939" expanded="true" signature="1432:1486" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="1496:1561" ph="/// 背景のTextureを反映させる ... " />
+            <marker date="1562735838939" expanded="true" signature="1600:1677" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="1687:1745" ph="/// ステージを出力する ... " />
+            <marker date="1562735838939" expanded="true" signature="1808:1899" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="1990:2602" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="2046:2170" ph="{...}" />
+            <marker date="1562735838939" expanded="true" signature="2323:2430" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/BattleFieldUIManager.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BattleFieldCreator.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="31" column="72" selection-start-line="31" selection-start-column="72" selection-end-line="31" selection-end-column="72" />
+        <state relative-caret-position="185">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
           <folding>
-            <marker date="1562579986783" expanded="true" signature="6:78" ph="..." />
-            <marker date="1562579986783" expanded="true" signature="100:1347" ph="{...}" />
-            <marker date="1562579986783" expanded="true" signature="156:1345" ph="{...}" />
-            <marker date="1562579986783" expanded="true" signature="386:665" ph="{...}" />
-            <marker date="1562579986783" expanded="true" signature="694:1339" ph="{...}" />
-            <marker date="1562579986783" expanded="true" signature="849:1294" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledEditor/UI/Squre/SqureObject.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
-          <folding>
-            <marker date="1562578520635" expanded="true" signature="6:146" ph="..." />
-            <marker date="1562578520635" expanded="true" signature="174:2308" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="221:2306" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="364:906" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1033:1228" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1268:1403" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1313:1393" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1450:1583" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1502:1573" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1637:1768" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1688:1758" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1844:1897" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="1981:2041" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="2123:2181" ph="{...}" />
-            <marker date="1562578520635" expanded="true" signature="2238:2300" ph="{...}" />
+            <marker date="1562742533557" expanded="false" signature="6:125" ph="..." />
+            <marker date="1562742533557" expanded="true" signature="173:2308" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="399:487" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="515:577" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="595:2306" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="678:753" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="903:990" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="1281:1538" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="1356:1528" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="1950:2011" ph="{...}" />
+            <marker date="1562742533557" expanded="true" signature="2151:2293" ph="{...}" />
           </folding>
         </state>
       </provider>

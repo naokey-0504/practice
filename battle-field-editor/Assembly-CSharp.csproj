@@ -65,11 +65,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\BattleFiledEditor\EditController.cs" />
-    <Compile Include="Assets\Scripts\BattleFiledEditor\UI\BattleFieldUIManager.cs" />
-    <Compile Include="Assets\Scripts\BattleFiledEditor\UI\PartsList\ListObject.cs" />
-    <Compile Include="Assets\Scripts\BattleFiledEditor\UI\Squre\SqureList.cs" />
-    <Compile Include="Assets\Scripts\BattleFiledEditor\UI\Squre\SqureObject.cs" />
+    <Compile Include="Assets\Scripts\BattleFiledCreator\BattleFieldCreatorManager.cs" />
+    <Compile Include="Assets\Scripts\BattleFiledCreator\FieldController.cs" />
+    <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
@@ -292,9 +290,6 @@
     <Reference Include="nunit.framework">
       <HintPath>/Applications/2019.1.9f1/Unity.app/Contents/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/PackageCache/com.unity.ads@2.0.8/UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Analytics.Tracker">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
@@ -303,9 +298,6 @@
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/PackageCache/com.unity.purchasing@2.0.6/UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>/Applications/2019.1.9f1/Unity.app/Contents/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
