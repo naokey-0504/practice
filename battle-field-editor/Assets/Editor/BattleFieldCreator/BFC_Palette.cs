@@ -10,70 +10,68 @@ namespace AlterEditor.BattleFieldCreator
     public class BFC_Palette : EditorWindow
     {
         private const int kSpace = 20;
+        private const int kCowNum = 5;
 
         private Sprite m_BgSprite;
-        private string m_PrefabDirectory = "";
-        private string m_PrefabName = "";
+        private Texture m_Texture;
+        private Vector2 scrollPos;
+
+        int selected;
+        
+        private string m_PrefabPath = "Prefabs/Parts/Tree";
 	    
         [MenuItem("Window/Editor/BattleFieldCreator/Palette")]
         static void Open()
         {
-            EditorWindow.GetWindow<BFC_Palette>( BFC_Common.kPrefix + "_Main" );
+            EditorWindow.GetWindow<BFC_Palette>(BFC_Common.kPrefix + "_Palette");
         }
 
         public void OnEnable()
         {
-            m_PrefabDirectory = "/Resources/Prefabs";
         }
 
         void OnGUI()
         {
-            GUILayout.Label( "0. 初期化する" );
-            if (GUILayout.Button("Init"))
-            {
-                BattleFieldCreatorManager.Instance.Init();
-            }
+            int screenW = Screen.width;
+
+            var prefabArr = new GameObject[2];
             
-            GUILayout.Space(kSpace);
-            GUILayout.Label( "1. 作成に必要なGameObjectを配置する" );
-            if (GUILayout.Button("Create Base"))
+            GUILayout.Label( "プレハブのパス" );
+            m_PrefabPath = GUILayout.TextField(m_PrefabPath);
+            
+            GUILayout.Label( "プレハブのインポート" );
+            if (GUILayout.Button("Import"))
             {
-                BattleFieldCreatorManager.Instance.CreateBaseObject();
+                GameObject tree = Resources.Load<GameObject>(m_PrefabPath);
+                m_Texture = tree.GetComponent<SpriteRenderer>().sprite.texture;
             }
-		    
-            GUILayout.Space(kSpace);
-            GUILayout.Label( "2. 背景を設定する" );
-            var options = new []{GUILayout.Width (64), GUILayout.Height (64)};
-            var sprite = EditorGUILayout.ObjectField (m_BgSprite, typeof(Sprite), false, options) as Sprite;
-            if (m_BgSprite != sprite)
+
+            
+            selected = GUILayout.Toolbar (selected,
+                new string[]{ "aaa", "bbb", "ccc", "ddd", "eee", "fff" }, EditorStyles.toolbarButton);
+
+            
+            
+
+
+            GUILayout.BeginArea(new Rect(0, 100, screenW, 500));
+            GUILayout.BeginVertical();
+ 
+            scrollPos = GUILayout.BeginScrollView(scrollPos,false,true, GUILayout.Width(screenW),GUILayout.MinHeight(200),GUILayout.MaxHeight(1000),GUILayout.ExpandHeight(true));
+            
+            EditorGUILayout.BeginHorizontal( GUI.skin.box );
+            for (int i = 0; i < kCowNum; i++)
             {
-                m_BgSprite = sprite;
-                if (sprite != null)
-                {
-                    BattleFieldCreatorManager.Instance.SetBgTexture(sprite);
-                    BattleFieldCreatorManager.Instance.ReflectBgTexture();
-                }
+                var options = new []{GUILayout.Width (64), GUILayout.Height (64)};
+                var toggleImg = false;
+                toggleImg = GUILayout.Toggle(toggleImg, m_Texture, options);
+                
             }
-		    
-            GUILayout.Space(kSpace);
-            GUILayout.Label( "3. オブジェクトを配置する" );
-		    
-            GUILayout.Space(kSpace);
-            GUILayout.Label( "4. ステージを出力する" );
-            GUILayout.Label("Application.dataPath");
-            GUILayout.TextField( Application.dataPath + "/" );
-            GUILayout.Label( "ディレクトリ" );
-            string dirPath = GUILayout.TextField(m_PrefabDirectory);
-            if (dirPath != m_PrefabDirectory)
-            {
-                m_PrefabDirectory = dirPath;
-            }
-            GUILayout.Label( "プレハブ名" );
-            m_PrefabName = GUILayout.TextField(m_PrefabName);
-            if (GUILayout.Button("Output Stage"))
-            {
-                BattleFieldCreatorManager.Instance.OutputStage(Application.dataPath + "/" + m_PrefabDirectory, m_PrefabName);
-            }
+            EditorGUILayout.EndHorizontal();
+
+            GUILayout.EndScrollView ();
+            GUILayout.EndVertical();
+            GUILayout.EndArea();            
         }
     }
 }

@@ -7,7 +7,9 @@
       <e p="Assets" t="Include">
         <e p="Editor" t="Include">
           <e p="BattleFieldCreator" t="Include">
-            <e p="BattleFieldCreator.cs" t="Include" />
+            <e p="BFC_Common.cs" t="Include" />
+            <e p="BFC_Main.cs" t="Include" />
+            <e p="BFC_Palette.cs" t="Include" />
           </e>
         </e>
         <e p="Scripts" t="Include">

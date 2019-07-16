@@ -65,7 +65,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Editor\BattleFieldCreator\BattleFieldCreator.cs" />
+    <Compile Include="Assets\Editor\BattleFieldCreator\BFC_Common.cs" />
+    <Compile Include="Assets\Editor\BattleFieldCreator\BFC_Main.cs" />
+    <Compile Include="Assets\Editor\BattleFieldCreator\BFC_Palette.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

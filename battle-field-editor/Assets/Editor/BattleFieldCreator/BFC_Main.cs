@@ -33,7 +33,7 @@ namespace AlterEditor.BattleFieldCreator
             {
                 BattleFieldCreatorManager.Instance.Init();
             }
-            #if true
+            
             GUILayout.Space(kSpace);
             GUILayout.Label( "1. 作成に必要なGameObjectを配置する" );
             if (GUILayout.Button("Create Base"))
@@ -74,7 +74,6 @@ namespace AlterEditor.BattleFieldCreator
             {
                 BattleFieldCreatorManager.Instance.OutputStage(Application.dataPath + "/" + m_PrefabDirectory, m_PrefabName);
             }
-    #endif
         }
     }
 }
