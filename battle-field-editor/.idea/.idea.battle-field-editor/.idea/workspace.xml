@@ -2,12 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.battle-field-editor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Common.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Common.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Main.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Palette.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Palette.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mapchip/mask.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Mapchip/mask.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/Bridge.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/Bridge.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/House.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/House.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/River1.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/River1.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/River2.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/River2.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/Tree.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Parts/Tree.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/BattleFiledCreator.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/BattleFiledCreator.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,8 +49,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+                <state relative-caret-position="705">
+                  <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
                   <folding>
                     <marker date="1562735838939" expanded="true" signature="6:57" ph="..." />
                     <marker date="1562735838939" expanded="true" signature="87:2610" ph="{...}" />
@@ -84,8 +94,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Main.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-180">
-                  <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+                <state relative-caret-position="405">
+                  <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
                   <folding>
                     <marker date="1562808393459" expanded="false" signature="6:125" ph="..." />
                     <marker date="1562808393459" expanded="true" signature="167:2595" ph="{...}" />
@@ -107,17 +117,27 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Palette.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="932">
-                  <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+                <state relative-caret-position="64">
+                  <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
                   <folding>
-                    <marker date="1563249309682" expanded="false" signature="6:125" ph="..." />
-                    <marker date="1563249309682" expanded="true" signature="167:2301" ph="{...}" />
-                    <marker date="1563249309682" expanded="true" signature="213:2299" ph="{...}" />
-                    <marker date="1563249309682" expanded="true" signature="591:693" ph="{...}" />
-                    <marker date="1563249309682" expanded="true" signature="725:745" ph="{...}" />
-                    <marker date="1563249309682" expanded="true" signature="767:2293" ph="{...}" />
-                    <marker date="1563249309682" expanded="true" signature="1084:1268" ph="{...}" />
-                    <marker date="1563249309682" expanded="true" signature="1871:2115" ph="{...}" />
+                    <marker date="1563256347190" expanded="false" signature="6:178" ph="..." />
+                    <marker date="1563256347190" expanded="true" signature="220:4323" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="266:4321" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="754:856" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="888:908" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="930:2547" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="1199:1337" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="1800:2414" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="2014:2350" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="2587:3081" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="2643:3039" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="2750:2995" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="2849:2941" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="3122:3933" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="3242:3911" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="3574:3847" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="3993:4315" ph="{...}" />
+                    <marker date="1563256347190" expanded="true" signature="4178:4273" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -155,11 +175,14 @@
       <find>setupSqure</find>
       <find>myData</find>
       <find>selStrings</find>
+      <find>m_Texture</find>
+      <find>prefabArr</find>
     </findStrings>
     <replaceStrings>
       <replace>colNum</replace>
       <replace>colCount</replace>
       <replace>rowCount</replace>
+      <replace>m_SelectedToggle</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -212,7 +235,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="785" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
@@ -226,13 +249,13 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="UnityExplorer">
-        <option name="show-hidden-items" value="false" />
-        <option name="show-project-names" value="false" />
-      </pane>
       <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="false" />
       </pane>
       <pane id="FileSystemExplorer" />
     </panes>
@@ -289,12 +312,14 @@
       <workItem from="1562719513680" duration="10344000" />
       <workItem from="1562737238167" duration="4131000" />
       <workItem from="1562807696548" duration="3444000" />
-      <workItem from="1563246611657" duration="3172000" />
+      <workItem from="1563246611657" duration="6712000" />
+      <workItem from="1563264532646" duration="194000" />
+      <workItem from="1563268396252" duration="504000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45384000" />
+    <option name="totallyTimeSpent" value="49622000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -306,16 +331,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="785" y="-1057" width="1920" height="1057" extended-state="0" />
+    <frame x="785" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48704663" visible="true" weight="0.15228967" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48704663" visible="true" weight="0.15548456" />
       <window_info id="Structure" order="1" sideWeight="0.51295334" side_tool="true" weight="0.2550586" />
       <window_info id="Favorites" order="2" sideWeight="0.51122624" side_tool="true" weight="0.2550586" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946752" weight="0.32953367" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4968051" visible="true" weight="0.40103626" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4969475" weight="0.44431686" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946752" weight="0.32953367" />
@@ -327,7 +352,7 @@
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Unit Tests" order="13" sideWeight="0.49840257" weight="0.32953367" />
       <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49840257" weight="0.32953367" />
-      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50319487" side_tool="true" visible="true" weight="0.40103626" />
+      <window_info anchor="bottom" id="Event Log" order="15" sideWeight="0.50305253" side_tool="true" visible="true" weight="0.36165804" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -397,8 +422,8 @@
     <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+        <state relative-caret-position="705">
+          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
           <folding>
             <marker date="1562735838939" expanded="true" signature="6:57" ph="..." />
             <marker date="1562735838939" expanded="true" signature="87:2610" ph="{...}" />
@@ -436,21 +461,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Common.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="35" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="35" />
-          <folding>
-            <marker date="1562808262001" expanded="true" signature="40:158" ph="{...}" />
-            <marker date="1562808262001" expanded="true" signature="70:156" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Main.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
+        <state relative-caret-position="405">
+          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
           <folding>
             <marker date="1562808393459" expanded="false" signature="6:125" ph="..." />
             <marker date="1562808393459" expanded="true" signature="167:2595" ph="{...}" />
@@ -468,19 +482,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Common.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <marker date="1562808262001" expanded="true" signature="40:158" ph="{...}" />
+            <marker date="1562808262001" expanded="true" signature="70:156" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Palette.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="932">
-          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+        <state relative-caret-position="64">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
           <folding>
-            <marker date="1563249309682" expanded="false" signature="6:125" ph="..." />
-            <marker date="1563249309682" expanded="true" signature="167:2301" ph="{...}" />
-            <marker date="1563249309682" expanded="true" signature="213:2299" ph="{...}" />
-            <marker date="1563249309682" expanded="true" signature="591:693" ph="{...}" />
-            <marker date="1563249309682" expanded="true" signature="725:745" ph="{...}" />
-            <marker date="1563249309682" expanded="true" signature="767:2293" ph="{...}" />
-            <marker date="1563249309682" expanded="true" signature="1084:1268" ph="{...}" />
-            <marker date="1563249309682" expanded="true" signature="1871:2115" ph="{...}" />
+            <marker date="1563256347190" expanded="false" signature="6:178" ph="..." />
+            <marker date="1563256347190" expanded="true" signature="220:4323" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="266:4321" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="754:856" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="888:908" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="930:2547" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="1199:1337" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="1800:2414" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="2014:2350" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="2587:3081" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="2643:3039" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="2750:2995" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="2849:2941" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="3122:3933" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="3242:3911" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="3574:3847" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="3993:4315" ph="{...}" />
+            <marker date="1563256347190" expanded="true" signature="4178:4273" ph="{...}" />
           </folding>
         </state>
       </provider>
