@@ -2,111 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04c654cd-dc33-40ee-bace-edb16c7928c2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.battle-field-editor/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.battle-field-editor/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.battle-field-editor/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.battle-field-editor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.battle-field-editor/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.battle-field-editor/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.scenario-editor/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.scenario-editor/.idea/indexLayout.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.scenario-editor/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.scenario-editor/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.scenario-editor/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/.idea/.idea.scenario-editor/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Add:" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Add:make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assembly-CSharp-Editor.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assembly-CSharp.csproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator/BFC_Common.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator/BFC_Common.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator/BFC_Main.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator/BFC_Main.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator/BFC_Palette.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Editor/BattleFieldCreator/BFC_Palette.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Plugins.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Plugins/Editor.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Plugins/Editor/JetBrains.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/background.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/bridge.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/bridge.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/field.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/field.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/house.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/house.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/river.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/river.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/tree.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Images/tree.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/BattleFieldCreator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/BattleFieldCreator/FieldBasePrefab.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/BattleFieldCreator/FieldBasePrefab.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/Bridge.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/Bridge/Bridge.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/Bridge/Bridge.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/House.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/House/House.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/House/House.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/River.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/River/River1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/River/River1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/River/River2.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/River/River2.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/Tree.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/Tree/Tree.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Parts/Tree/Tree.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Stage.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Stage/Stage1-1.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Resources/Prefabs/Stage/Stage1-1.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scenes/BattleFieldEditor.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scenes/BattleFieldEditor.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scenes/BattleFiledCreator.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scenes/BattleFiledCreator.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/BattleFiledCreator.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/BattleFiledCreator/BattleFieldCreatorManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/BattleFiledCreator/SimulationMapController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/BattleFiledCreator/SimulationMapController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/SingletonMonoBehaviour.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Assets/Scripts/SingletonMonoBehaviour.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Logs/Packages-Update.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/Packages/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/AudioManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/ClusterInputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/DynamicsManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/EditorSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/GraphicsSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/InputManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/NavMeshAreas.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/NetworkManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/Physics2DSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/PresetManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/ProjectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/ProjectVersion.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/QualitySettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/TagManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/TimeManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/VFXManager.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/ProjectSettings/XRSettings.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/battle-field-editor.sln" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../battle-field-editor/scenario-editor.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp-Editor.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/BattleFieldCreatorManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/BattleFieldCreatorManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp-Editor.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,33 +35,65 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/BattleFieldCreatorManager.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1365">
-                  <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+                <state relative-caret-position="570">
+                  <caret line="40" column="116" selection-start-line="40" selection-start-column="116" selection-end-line="40" selection-end-column="116" />
                   <folding>
-                    <marker date="1563329939092" expanded="false" signature="6:57" ph="..." />
-                    <marker date="1563329939092" expanded="true" signature="87:3275" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="184:3273" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="545:605" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="633:931" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="792:921" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="941:1008" ph="/// フィールドのPrefabをロードする ... " />
-                    <marker date="1563329939092" expanded="true" signature="1046:1284" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="1111:1274" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="1294:1376" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
-                    <marker date="1563329939092" expanded="true" signature="1415:1727" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="1777:1914" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="1924:2033" ph="/// 背景のTextureを設定する ... " />
-                    <marker date="1563329939092" expanded="true" signature="2081:2135" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="2145:2210" ph="/// 背景のTextureを反映させる ... " />
-                    <marker date="1563329939092" expanded="true" signature="2249:2334" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="2344:2402" ph="/// ステージを出力する ... " />
-                    <marker date="1563329939092" expanded="true" signature="2465:2564" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="2655:3267" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="2711:2835" ph="{...}" />
-                    <marker date="1563329939092" expanded="true" signature="2988:3095" ph="{...}" />
+                    <marker date="1563339443356" expanded="false" signature="6:57" ph="..." />
+                    <marker date="1563339443356" expanded="true" signature="88:3279" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="187:3277" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="548:608" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="636:934" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="795:924" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="944:1011" ph="/// フィールドのPrefabをロードする ... " />
+                    <marker date="1563339443356" expanded="true" signature="1049:1288" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="1114:1278" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="1298:1380" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+                    <marker date="1563339443356" expanded="true" signature="1419:1731" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="1781:1918" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="1928:2037" ph="/// 背景のTextureを設定する ... " />
+                    <marker date="1563339443356" expanded="true" signature="2085:2139" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="2149:2214" ph="/// 背景のTextureを反映させる ... " />
+                    <marker date="1563339443356" expanded="true" signature="2253:2338" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="2348:2406" ph="/// ステージを出力する ... " />
+                    <marker date="1563339443356" expanded="true" signature="2469:2568" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="2659:3271" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="2715:2839" ph="{...}" />
+                    <marker date="1563339443356" expanded="true" signature="2992:3099" ph="{...}" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuestEditor/QuestEditorManager.cs">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="4" column="28" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="28" />
+                  <folding>
+                    <marker date="1563339047229" expanded="false" signature="6:57" ph="..." />
+                    <marker date="1563339047229" expanded="true" signature="87:3275" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="184:3273" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="545:605" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="633:931" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="792:921" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="941:1008" ph="/// フィールドのPrefabをロードする ... " />
+                    <marker date="1563339047229" expanded="true" signature="1046:1284" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="1111:1274" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="1294:1376" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+                    <marker date="1563339047229" expanded="true" signature="1415:1727" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="1777:1914" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="1924:2033" ph="/// 背景のTextureを設定する ... " />
+                    <marker date="1563339047229" expanded="true" signature="2081:2135" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="2145:2210" ph="/// 背景のTextureを反映させる ... " />
+                    <marker date="1563339047229" expanded="true" signature="2249:2334" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="2344:2402" ph="/// ステージを出力する ... " />
+                    <marker date="1563339047229" expanded="true" signature="2465:2564" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="2655:3267" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="2711:2835" ph="{...}" />
+                    <marker date="1563339047229" expanded="true" signature="2988:3095" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -170,13 +102,13 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/SimulationMapController.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="15">
+                <state relative-caret-position="30">
                   <caret line="4" column="36" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="36" />
                   <folding>
-                    <marker date="1563329602776" expanded="false" signature="6:78" ph="..." />
-                    <marker date="1563329602776" expanded="true" signature="132:409" ph="{...}" />
-                    <marker date="1563329602776" expanded="true" signature="208:308" ph="{...}" />
-                    <marker date="1563329602776" expanded="true" signature="353:407" ph="{...}" />
+                    <marker date="1563339047230" expanded="false" signature="6:78" ph="..." />
+                    <marker date="1563339047230" expanded="true" signature="132:409" ph="{...}" />
+                    <marker date="1563339047230" expanded="true" signature="208:308" ph="{...}" />
+                    <marker date="1563339047230" expanded="true" signature="353:407" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -185,50 +117,50 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Main.cs">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+                <state relative-caret-position="30">
+                  <caret line="7" column="41" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="41" />
                   <folding>
-                    <marker date="1563335256951" expanded="false" signature="6:125" ph="..." />
-                    <marker date="1563335256951" expanded="true" signature="168:2671" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="211:2669" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="475:573" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="605:734" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="756:2663" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="859:957" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="1115:1214" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="1529:1818" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="1616:1804" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="2274:2347" ph="{...}" />
-                    <marker date="1563335256951" expanded="true" signature="2499:2653" ph="{...}" />
+                    <marker date="1563339047161" expanded="false" signature="6:125" ph="..." />
+                    <marker date="1563339047161" expanded="true" signature="168:2671" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="211:2669" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="475:573" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="605:734" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="756:2663" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="859:957" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="1115:1214" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="1529:1818" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="1616:1804" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="2274:2347" ph="{...}" />
+                    <marker date="1563339047161" expanded="true" signature="2499:2653" ph="{...}" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Palette.cs">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="218">
-                  <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+                  <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
                   <folding>
-                    <marker date="1563335335789" expanded="false" signature="6:178" ph="..." />
-                    <marker date="1563335335789" expanded="true" signature="221:4325" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="267:4323" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="756:858" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="890:910" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="932:2549" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="1201:1339" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="1802:2416" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="2016:2352" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="2589:3083" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="2645:3041" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="2752:2997" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="2851:2943" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="3124:3935" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="3244:3913" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="3576:3849" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="3995:4317" ph="{...}" />
-                    <marker date="1563335335789" expanded="true" signature="4180:4275" ph="{...}" />
+                    <marker date="1563339047162" expanded="false" signature="6:178" ph="..." />
+                    <marker date="1563339047162" expanded="true" signature="221:4325" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="267:4323" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="756:858" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="890:910" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="932:2549" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="1201:1339" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="1802:2416" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="2016:2352" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="2589:3083" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="2645:3041" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="2752:2997" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="2851:2943" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="3124:3935" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="3244:3913" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="3576:3849" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="3995:4317" ph="{...}" />
+                    <marker date="1563339047162" expanded="true" signature="4180:4275" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -244,8 +176,8 @@
                 <state>
                   <caret column="41" selection-start-column="22" selection-end-column="41" />
                   <folding>
-                    <marker date="1563335195468" expanded="true" signature="41:160" ph="{...}" />
-                    <marker date="1563335195468" expanded="true" signature="71:158" ph="{...}" />
+                    <marker date="1563339047160" expanded="true" signature="41:160" ph="{...}" />
+                    <marker date="1563339047160" expanded="true" signature="71:158" ph="{...}" />
                   </folding>
                 </state>
               </provider>
@@ -296,6 +228,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/SimulationMapController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Palette.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestEditor/QuestEditorManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SingletonMonoBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -328,6 +261,7 @@
         <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Palette.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/BFC_Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Palette.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/BattleFieldCreatorManager.cs" />
       </list>
     </option>
   </component>
@@ -455,12 +389,12 @@
       <workItem from="1563264532646" duration="194000" />
       <workItem from="1563268396252" duration="504000" />
       <workItem from="1563327248432" duration="2707000" />
-      <workItem from="1563335075695" duration="478000" />
+      <workItem from="1563335075695" duration="1213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52807000" />
+    <option name="totallyTimeSpent" value="53542000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -561,77 +495,13 @@
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/BattleFiledCreator/UI/PartsList/ListObject.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class2.cs" />
     <entry file="file://$PROJECT_DIR$/Assets/Editor/BattleFieldCreator/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/BattleFieldCreatorManager.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1365">
-          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
-          <folding>
-            <marker date="1563329939092" expanded="false" signature="6:57" ph="..." />
-            <marker date="1563329939092" expanded="true" signature="87:3275" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="184:3273" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="545:605" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="633:931" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="792:921" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="941:1008" ph="/// フィールドのPrefabをロードする ... " />
-            <marker date="1563329939092" expanded="true" signature="1046:1284" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="1111:1274" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="1294:1376" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
-            <marker date="1563329939092" expanded="true" signature="1415:1727" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="1777:1914" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="1924:2033" ph="/// 背景のTextureを設定する ... " />
-            <marker date="1563329939092" expanded="true" signature="2081:2135" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="2145:2210" ph="/// 背景のTextureを反映させる ... " />
-            <marker date="1563329939092" expanded="true" signature="2249:2334" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="2344:2402" ph="/// ステージを出力する ... " />
-            <marker date="1563329939092" expanded="true" signature="2465:2564" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="2655:3267" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="2711:2835" ph="{...}" />
-            <marker date="1563329939092" expanded="true" signature="2988:3095" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/SimulationMapController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="4" column="36" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="36" />
-          <folding>
-            <marker date="1563329602776" expanded="false" signature="6:78" ph="..." />
-            <marker date="1563329602776" expanded="true" signature="132:409" ph="{...}" />
-            <marker date="1563329602776" expanded="true" signature="208:308" ph="{...}" />
-            <marker date="1563329602776" expanded="true" signature="353:407" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Common.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="41" selection-start-column="22" selection-end-column="41" />
           <folding>
-            <marker date="1563335195468" expanded="true" signature="41:160" ph="{...}" />
-            <marker date="1563335195468" expanded="true" signature="71:158" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Main.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
-          <folding>
-            <marker date="1563335256951" expanded="false" signature="6:125" ph="..." />
-            <marker date="1563335256951" expanded="true" signature="168:2671" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="211:2669" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="475:573" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="605:734" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="756:2663" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="859:957" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="1115:1214" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="1529:1818" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="1616:1804" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="2274:2347" ph="{...}" />
-            <marker date="1563335256951" expanded="true" signature="2499:2653" ph="{...}" />
+            <marker date="1563339047160" expanded="true" signature="41:160" ph="{...}" />
+            <marker date="1563339047160" expanded="true" signature="71:158" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -639,26 +509,120 @@
     <entry file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Palette.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="218">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
           <folding>
-            <marker date="1563335335789" expanded="false" signature="6:178" ph="..." />
-            <marker date="1563335335789" expanded="true" signature="221:4325" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="267:4323" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="756:858" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="890:910" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="932:2549" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="1201:1339" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="1802:2416" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="2016:2352" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="2589:3083" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="2645:3041" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="2752:2997" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="2851:2943" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="3124:3935" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="3244:3913" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="3576:3849" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="3995:4317" ph="{...}" />
-            <marker date="1563335335789" expanded="true" signature="4180:4275" ph="{...}" />
+            <marker date="1563339047162" expanded="false" signature="6:178" ph="..." />
+            <marker date="1563339047162" expanded="true" signature="221:4325" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="267:4323" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="756:858" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="890:910" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="932:2549" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="1201:1339" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="1802:2416" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="2016:2352" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="2589:3083" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="2645:3041" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="2752:2997" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="2851:2943" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="3124:3935" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="3244:3913" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="3576:3849" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="3995:4317" ph="{...}" />
+            <marker date="1563339047162" expanded="true" signature="4180:4275" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/QuestEditor/QuestEditorManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="4" column="28" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="28" />
+          <folding>
+            <marker date="1563339047229" expanded="false" signature="6:57" ph="..." />
+            <marker date="1563339047229" expanded="true" signature="87:3275" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="184:3273" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="545:605" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="633:931" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="792:921" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="941:1008" ph="/// フィールドのPrefabをロードする ... " />
+            <marker date="1563339047229" expanded="true" signature="1046:1284" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="1111:1274" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="1294:1376" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+            <marker date="1563339047229" expanded="true" signature="1415:1727" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="1777:1914" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="1924:2033" ph="/// 背景のTextureを設定する ... " />
+            <marker date="1563339047229" expanded="true" signature="2081:2135" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="2145:2210" ph="/// 背景のTextureを反映させる ... " />
+            <marker date="1563339047229" expanded="true" signature="2249:2334" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="2344:2402" ph="/// ステージを出力する ... " />
+            <marker date="1563339047229" expanded="true" signature="2465:2564" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="2655:3267" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="2711:2835" ph="{...}" />
+            <marker date="1563339047229" expanded="true" signature="2988:3095" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/SimulationMapController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="4" column="36" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="36" />
+          <folding>
+            <marker date="1563339047230" expanded="false" signature="6:78" ph="..." />
+            <marker date="1563339047230" expanded="true" signature="132:409" ph="{...}" />
+            <marker date="1563339047230" expanded="true" signature="208:308" ph="{...}" />
+            <marker date="1563339047230" expanded="true" signature="353:407" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/SimulationMapEditor/SME_Main.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="41" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="41" />
+          <folding>
+            <marker date="1563339047161" expanded="false" signature="6:125" ph="..." />
+            <marker date="1563339047161" expanded="true" signature="168:2671" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="211:2669" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="475:573" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="605:734" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="756:2663" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="859:957" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="1115:1214" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="1529:1818" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="1616:1804" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="2274:2347" ph="{...}" />
+            <marker date="1563339047161" expanded="true" signature="2499:2653" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/SimulationMapEditor/BattleFieldCreatorManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="40" column="116" selection-start-line="40" selection-start-column="116" selection-end-line="40" selection-end-column="116" />
+          <folding>
+            <marker date="1563339443356" expanded="false" signature="6:57" ph="..." />
+            <marker date="1563339443356" expanded="true" signature="88:3279" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="187:3277" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="548:608" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="636:934" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="795:924" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="944:1011" ph="/// フィールドのPrefabをロードする ... " />
+            <marker date="1563339443356" expanded="true" signature="1049:1288" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="1114:1278" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="1298:1380" ph="/// バトルフィールドを作成するのに必要なGameObjectを生成する ... " />
+            <marker date="1563339443356" expanded="true" signature="1419:1731" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="1781:1918" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="1928:2037" ph="/// 背景のTextureを設定する ... " />
+            <marker date="1563339443356" expanded="true" signature="2085:2139" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="2149:2214" ph="/// 背景のTextureを反映させる ... " />
+            <marker date="1563339443356" expanded="true" signature="2253:2338" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="2348:2406" ph="/// ステージを出力する ... " />
+            <marker date="1563339443356" expanded="true" signature="2469:2568" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="2659:3271" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="2715:2839" ph="{...}" />
+            <marker date="1563339443356" expanded="true" signature="2992:3099" ph="{...}" />
           </folding>
         </state>
       </provider>

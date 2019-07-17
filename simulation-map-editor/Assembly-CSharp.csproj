@@ -65,8 +65,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SimulationMapEditor\BattleFieldCreatorManager.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\QuestEditorManager.cs" />
     <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapController.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapEditorManager.cs" />
     <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/simulation-map-editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

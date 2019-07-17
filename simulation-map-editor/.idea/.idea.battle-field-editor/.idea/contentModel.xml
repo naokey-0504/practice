@@ -13,9 +13,12 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="QuestEditor" t="Include">
+            <e p="QuestEditorManager.cs" t="Include" />
+          </e>
           <e p="SimulationMapEditor" t="Include">
-            <e p="BattleFieldCreatorManager.cs" t="Include" />
             <e p="SimulationMapController.cs" t="Include" />
+            <e p="SimulationMapEditorManager.cs" t="Include" />
           </e>
           <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
