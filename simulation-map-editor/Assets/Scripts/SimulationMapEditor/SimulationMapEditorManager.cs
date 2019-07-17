@@ -2,7 +2,7 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace SimulationMapEditor
+namespace AlterEditor.SimulationMapEditor
 {
     public class SimulationMapEditorManager : SingletonMonoBehaviour<SimulationMapEditorManager>
     {
