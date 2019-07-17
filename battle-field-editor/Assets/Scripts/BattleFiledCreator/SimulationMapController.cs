@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FieldController : MonoBehaviour
+public class SimulationMapController : MonoBehaviour
 {
     private SpriteRenderer  m_SpriteRenderer;
     

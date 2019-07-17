@@ -6,10 +6,13 @@ namespace BattleFiledCreator
 {
     public class BattleFieldCreatorManager : SingletonMonoBehaviour<BattleFieldCreatorManager>
     {
-        private Transform m_Root;
+        private const string kSimulationMapName = "SimulationMap";
 
-        private FieldController m_FieldControllerBase;
-        private FieldController m_FieldController;
+        private Transform m_Root;
+        private GameObject m_SimulationMap;
+
+        private SimulationMapController m_SimulationMapControllerBase;
+        private SimulationMapController m_SimulationMapController;
 
         private Sprite m_BgTexture;
 
@@ -21,19 +24,22 @@ namespace BattleFiledCreator
         public void Init()
         {
             m_Root = transform.Find("Root");
-
-            if (m_FieldControllerBase == null)
+            m_SimulationMap = searchSimulationMap();
+            if (m_SimulationMapController == null)
             {
-                loadFieldPrefab();
+                m_SimulationMapController = m_SimulationMap.GetComponent<SimulationMapController>();
             }
         }
 
         /// <summary>
         /// フィールドのPrefabをロードする
         /// </summary>
-        private void loadFieldPrefab()
+        public void LoadFieldPrefab()
         {
-            m_FieldControllerBase = Resources.Load<FieldController>("Prefabs/BattleFieldCreator/FieldBasePrefab");
+            if (m_SimulationMapControllerBase == null)
+            {
+                m_SimulationMapControllerBase = Resources.Load<SimulationMapController>("Prefabs/BattleFieldCreator/FieldBasePrefab");
+            }
         }
 
         /// <summary>
@@ -41,9 +47,16 @@ namespace BattleFiledCreator
         /// </summary>
         public void CreateBaseObject()
         {
-            m_FieldController = GameObject.Instantiate<FieldController>(m_FieldControllerBase, m_Root);
-            m_FieldController.Init();
-            m_FieldController.name = "FieldController";
+            m_SimulationMapController = GameObject.Instantiate<SimulationMapController>(m_SimulationMapControllerBase, m_Root);
+            m_SimulationMapController.Init();
+            m_SimulationMapController.name = kSimulationMapName;
+            m_SimulationMap = searchSimulationMap();
+        }
+
+        private GameObject searchSimulationMap()
+        {
+            var trans = m_Root.Find(kSimulationMapName);
+            return trans != null ? trans.gameObject : null;
         }
 
         /// <summary>
@@ -60,7 +73,7 @@ namespace BattleFiledCreator
         /// </summary>
         public void ReflectBgTexture()
         {
-            m_FieldController.SetBgTexture(m_BgTexture);
+            m_SimulationMapController.SetBgTexture(m_BgTexture);
         }
 
         /// <summary>
@@ -68,7 +81,7 @@ namespace BattleFiledCreator
         /// </summary>
         public void OutputStage(string directory, string name)
         {
-            savePrefab(directory, name, m_FieldController.gameObject);
+            savePrefab(directory, name, m_SimulationMapController.gameObject);
         }
 
         private static void savePrefab(string directory, string name, GameObject gameObj)

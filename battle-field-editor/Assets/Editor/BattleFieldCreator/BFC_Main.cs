@@ -24,14 +24,15 @@ namespace AlterEditor.BattleFieldCreator
         public void OnEnable()
         {
             m_PrefabDirectory = "/Resources/Prefabs";
+            BattleFieldCreatorManager.Instance.Init();
         }
 
         void OnGUI()
         {
-            GUILayout.Label( "0. 初期化する" );
-            if (GUILayout.Button("Init"))
+            GUILayout.Label( "0. 必要なプレハブをロードする" );
+            if (GUILayout.Button("Load"))
             {
-                BattleFieldCreatorManager.Instance.Init();
+                BattleFieldCreatorManager.Instance.LoadFieldPrefab();
             }
             
             GUILayout.Space(kSpace);

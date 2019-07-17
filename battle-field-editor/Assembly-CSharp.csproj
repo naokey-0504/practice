@@ -66,7 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\BattleFiledCreator\BattleFieldCreatorManager.cs" />
-    <Compile Include="Assets\Scripts\BattleFiledCreator\FieldController.cs" />
+    <Compile Include="Assets\Scripts\BattleFiledCreator\SimulationMapController.cs" />
     <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/battle-field-editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>

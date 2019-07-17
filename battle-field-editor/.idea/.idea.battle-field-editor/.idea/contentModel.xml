@@ -15,7 +15,7 @@
         <e p="Scripts" t="Include">
           <e p="BattleFiledCreator" t="Include">
             <e p="BattleFieldCreatorManager.cs" t="Include" />
-            <e p="FieldController.cs" t="Include" />
+            <e p="SimulationMapController.cs" t="Include" />
           </e>
           <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
