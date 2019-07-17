@@ -2,9 +2,9 @@ using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace BattleFiledCreator
+namespace SimulationMapEditor
 {
-    public class BattleFieldCreatorManager : SingletonMonoBehaviour<BattleFieldCreatorManager>
+    public class SimulationMapEditorManager : SingletonMonoBehaviour<SimulationMapEditorManager>
     {
         private const string kSimulationMapName = "SimulationMap";
 
@@ -38,7 +38,7 @@ namespace BattleFiledCreator
         {
             if (m_SimulationMapControllerBase == null)
             {
-                m_SimulationMapControllerBase = Resources.Load<SimulationMapController>("Prefabs/BattleFieldCreator/FieldBasePrefab");
+                m_SimulationMapControllerBase = Resources.Load<SimulationMapController>("Prefabs/SimulationMapEditor/FieldBasePrefab");
             }
         }
 
