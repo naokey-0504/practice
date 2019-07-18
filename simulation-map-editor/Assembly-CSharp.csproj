@@ -65,7 +65,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\QuestEditor\QuestEditorController.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\QuestEditorManager.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\Task\DrawGridTask.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\Task\InitTask.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\Task\LoadSimurationMap.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\Task\TaskBase.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\UI\EventBase.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\UI\GridBase.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\UI\MetaWindow.cs" />
     <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapController.cs" />
     <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapEditorManager.cs" />
     <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
