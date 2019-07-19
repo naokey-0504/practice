@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace AlterEditor.QuestEditor
@@ -23,9 +24,9 @@ namespace AlterEditor.QuestEditor
             return true;
         }
 
-        public override Step GetNextStep()
+        protected override Enum GetNextStep()
         {
-            return Step.DrawGrid;
+            return TaskStep.DrawGrid;
         }
     }
 }

@@ -42,6 +42,7 @@ namespace AlterEditor.QuestEditor
                     grid.gameObject.SetActive(true);
                     grid.SetText(string.Format("({0}, {1})", c, r));
                     grid.SetGridPos(new Vector2(c, r));
+                    grid.AddOnClick(() => { QuestEditorManager.Instance.ShowGridWindow(); });
                 }
             }
         }

@@ -1,3 +1,5 @@
+using System;
+
 namespace AlterEditor.QuestEditor
 {
     public class DrawGridTask : TaskBase
@@ -21,10 +23,10 @@ namespace AlterEditor.QuestEditor
         {
             return false;
         }
-
-        public override Step GetNextStep()
+        
+        protected override Enum GetNextStep()
         {
-            return TaskBase.Step.DrawGrid;
+            return TaskStep.DrawGrid;
         }
     }
 }

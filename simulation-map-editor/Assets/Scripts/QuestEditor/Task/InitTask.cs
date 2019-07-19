@@ -1,3 +1,5 @@
+using System;
+
 namespace AlterEditor.QuestEditor
 {
     public class InitTask : TaskBase
@@ -22,9 +24,9 @@ namespace AlterEditor.QuestEditor
             return true;
         }
 
-        public override Step GetNextStep()
+        protected override Enum GetNextStep()
         {
-            return Step.LoadSimurationStage;
+            return TaskStep.LoadSimurationStage;
         }
     }
 }

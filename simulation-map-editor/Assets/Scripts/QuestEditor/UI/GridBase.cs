@@ -1,25 +1,16 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
-namespace AlterEditor.QuestEditor
+namespace AlterEditor
 {
     public class GridBase : MonoBehaviour
     {
         [SerializeField] private Text m_Text;
-
-        private Button m_Button;
+        [SerializeField] private Button m_Button;
 
         private Vector2 m_GridPos = Vector2.zero;
-        
-        public void Awake()
-        {
-            m_Button = transform.GetComponent<Button>();
-            m_Button.onClick.AddListener(() =>
-            {
-                QuestEditorManager.Instance.ShowGridWindow();
-            });
-        }
 
         public void SetGridPos(Vector2 pos)
         {
@@ -29,6 +20,14 @@ namespace AlterEditor.QuestEditor
         public void SetText(string str)
         {
             m_Text.text = str;
+        }
+
+        public void AddOnClick(UnityAction action)
+        {
+            if (m_Button != null)
+            {
+                m_Button.onClick.AddListener(action);
+            }
         }
     }
 }

@@ -6,19 +6,19 @@ namespace AlterEditor.QuestEditor
 {
     public class QuestEditorController : MonoBehaviour
     {
-        private static readonly Dictionary<TaskBase.Step, TaskBase> kTaskDic = new Dictionary<TaskBase.Step, TaskBase>
+        private static readonly Dictionary<TaskStep, TaskBase> kTaskDic = new Dictionary<TaskStep, TaskBase>
         {
-            { TaskBase.Step.Init, new InitTask() },
-            { TaskBase.Step.LoadSimurationStage, new LoadSimurationMap() },
-            { TaskBase.Step.DrawGrid, new DrawGridTask() },
+            { TaskStep.Init, new InitTask() },
+            { TaskStep.LoadSimurationStage, new LoadSimurationMap() },
+            { TaskStep.DrawGrid, new DrawGridTask() },
         };
 
-        private TaskBase.Step m_Step = TaskBase.Step.None;
+        private TaskStep m_Step = TaskStep.None;
         private TaskBase m_Task;
         
         public void Start()
         {
-            translateTask(TaskBase.Step.Init);
+            translateTask(TaskStep.Init);
         }
 
         public void Update()
@@ -31,12 +31,12 @@ namespace AlterEditor.QuestEditor
                 {
                     m_Task.Finish();
 
-                    translateTask(m_Task.GetNextStep());
+                    translateTask(m_Task.GetNextStep<TaskStep>());
                 }
             }
         }
 
-        private void translateTask(TaskBase.Step step)
+        private void translateTask(TaskStep step)
         {
             m_Step = step;
             m_Task = kTaskDic.ContainsKey(step) ? kTaskDic[step] : null;
