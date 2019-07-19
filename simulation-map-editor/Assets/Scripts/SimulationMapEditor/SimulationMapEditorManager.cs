@@ -69,6 +69,11 @@ namespace AlterEditor.SimulationMapEditor
             }
         }
 
+        public Vector2 GetGridSize()
+        {
+            return m_GridBase.GetComponent<RectTransform>().sizeDelta;
+        }
+
         /// <summary>
         /// バトルフィールドを作成するのに必要なGameObjectを生成する
         /// </summary>
