@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 using UnityEngine;
 using UnityEngine.UI;
@@ -11,9 +12,13 @@ namespace AlterEditor.SimulationMapEditor
         private Transform m_Root;
         private GameObject m_SimulationMap;
 
-        private SimulationMapController m_SimulationMapControllerBase;
-        private SimulationMapController m_SimulationMapController;
-
+        private FiledMapPrefab m_FiledMapPrefabBase;
+        private FiledMapPrefab m_FiledMapPrefab;
+        
+        [SerializeField] private GridBase m_GridBase;
+        [SerializeField] private Transform m_GridParent;
+        [SerializeField] private GridLayoutGroup m_GridLayoutGroup;
+        
         private Sprite m_BgTexture;
 
         public Sprite bgTexture
@@ -25,10 +30,15 @@ namespace AlterEditor.SimulationMapEditor
         {
             m_Root = transform.Find("Root");
             m_SimulationMap = searchSimulationMap();
-            if (m_SimulationMapController == null)
+            m_GridLayoutGroup.cellSize = m_GridBase.GetComponent<RectTransform>().sizeDelta;
+            if (m_FiledMapPrefab == null)
             {
-                m_SimulationMapController = m_SimulationMap.GetComponent<SimulationMapController>();
+                m_FiledMapPrefab = m_SimulationMap.GetComponent<FiledMapPrefab>();
             }
+        }
+
+        public void Update()
+        {
         }
 
         /// <summary>
@@ -36,9 +46,25 @@ namespace AlterEditor.SimulationMapEditor
         /// </summary>
         public void LoadFieldPrefab()
         {
-            if (m_SimulationMapControllerBase == null)
+            if (m_FiledMapPrefabBase == null)
             {
-                m_SimulationMapControllerBase = Resources.Load<SimulationMapController>("Prefabs/SimulationMapEditor/FieldBasePrefab");
+                m_FiledMapPrefabBase =
+                    Resources.Load<FiledMapPrefab>("Prefabs/SimulationMapEditor/FieldBasePrefab");
+            }
+        }
+        
+        public void DrawGrid(int col, int row)
+        {
+            m_GridLayoutGroup.constraintCount = col;
+            for (int r = 0; r < row; ++r)
+            {
+                for (int c = 0; c < col; c++)
+                {
+                    var grid = GameObject.Instantiate(m_GridBase, m_GridParent).GetComponent<GridBase>();
+                    grid.gameObject.SetActive(true);
+                    grid.SetText(string.Format("({0}, {1})", c, r));
+                    grid.SetGridPos(new Vector2(c, r));
+                }
             }
         }
 
@@ -47,9 +73,10 @@ namespace AlterEditor.SimulationMapEditor
         /// </summary>
         public void CreateBaseObject()
         {
-            m_SimulationMapController = GameObject.Instantiate<SimulationMapController>(m_SimulationMapControllerBase, m_Root);
-            m_SimulationMapController.Init();
-            m_SimulationMapController.name = kSimulationMapName;
+            m_FiledMapPrefab =
+                GameObject.Instantiate<FiledMapPrefab>(m_FiledMapPrefabBase, m_Root);
+            m_FiledMapPrefab.Init();
+            m_FiledMapPrefab.name = kSimulationMapName;
             m_SimulationMap = searchSimulationMap();
         }
 
@@ -73,7 +100,7 @@ namespace AlterEditor.SimulationMapEditor
         /// </summary>
         public void ReflectBgTexture()
         {
-            m_SimulationMapController.SetBgTexture(m_BgTexture);
+            m_FiledMapPrefab.SetBgTexture(m_BgTexture);
         }
 
         /// <summary>
@@ -81,7 +108,10 @@ namespace AlterEditor.SimulationMapEditor
         /// </summary>
         public void OutputStage(string directory, string name)
         {
-            savePrefab(directory, name, m_SimulationMapController.gameObject);
+            if (0 < m_Root.childCount)
+            {
+                savePrefab(directory, name, m_Root.GetChild(0).gameObject);
+            }
         }
 
         private static void savePrefab(string directory, string name, GameObject gameObj)

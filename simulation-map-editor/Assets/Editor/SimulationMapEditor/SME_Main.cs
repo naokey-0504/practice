@@ -22,8 +22,7 @@ namespace AlterEditor.SimulationMapEditor
 
         public void OnEnable()
         {
-            m_PrefabDirectory = "/Resources/Prefabs";
-            SimulationMapEditorManager.Instance.Init();
+            m_PrefabDirectory = "Resources/Prefabs/Stage";
         }
 
         void OnGUI()

@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SimulationMapController : MonoBehaviour
+public class FiledMapPrefab : MonoBehaviour
 {
     private SpriteRenderer  m_SpriteRenderer;
     
