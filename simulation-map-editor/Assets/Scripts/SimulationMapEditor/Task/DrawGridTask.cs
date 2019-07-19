@@ -21,12 +21,12 @@ namespace AlterEditor.SimulationMapEditor
 
         public override bool IsFinish()
         {
-            return false;
+            return true;
         }
 
         protected override Enum GetNextStep()
         {
-            return TaskStep.DrawGrid;
+            return TaskStep.PlaceMapObject;
         }
     }
 }

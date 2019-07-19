@@ -10,6 +10,7 @@ namespace AlterEditor.SimulationMapEditor
         {
             { TaskStep.Init, new InitTask() },
             { TaskStep.DrawGrid, new DrawGridTask() },
+            { TaskStep.PlaceMapObject, new PlaceMapObject() },
         };
 
         private TaskStep m_Step = TaskStep.None;

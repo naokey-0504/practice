@@ -65,18 +65,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\MapObject\MapObject.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\QuestEditorController.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\QuestEditorManager.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\Task\DrawGridTask.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\Task\InitTask.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\Task\LoadSimurationMap.cs" />
-    <Compile Include="Assets\Scripts\QuestEditor\Task\TaskBase.cs" />
+    <Compile Include="Assets\Scripts\QuestEditor\Task\TaskStep.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\UI\EventBase.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\UI\GridBase.cs" />
     <Compile Include="Assets\Scripts\QuestEditor\UI\MetaWindow.cs" />
-    <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapController.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\FiledMapPrefab.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapEditorController.cs" />
     <Compile Include="Assets\Scripts\SimulationMapEditor\SimulationMapEditorManager.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\Task\DrawGridTask.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\Task\InitTask.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\Task\PlaceMapObject.cs" />
+    <Compile Include="Assets\Scripts\SimulationMapEditor\Task\TaskStep.cs" />
     <Compile Include="Assets\Scripts\SingletonMonoBehaviour.cs" />
+    <Compile Include="Assets\Scripts\TaskBase\TaskBase.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>/Users/techcross/Desktop/Work/personal/practice/simulation-map-editor/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
