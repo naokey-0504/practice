@@ -22,6 +22,12 @@ namespace AlterEditor.SimulationMapEditor
         
         private Sprite m_BgTexture;
 
+        private bool m_IsGridMode = false;
+        public bool isGridMode
+        {
+            get { return m_IsGridMode; }
+        }
+        
         public Sprite bgTexture
         {
             get { return m_BgTexture; }
@@ -139,6 +145,11 @@ namespace AlterEditor.SimulationMapEditor
             //prefabの保存
             UnityEditor.PrefabUtility.CreatePrefab(prefabPath, gameObj);
             UnityEditor.AssetDatabase.SaveAssets();
+        }
+
+        public void SetIsGridMode(bool flg)
+        {
+            m_IsGridMode = flg;
         }
     }
 }

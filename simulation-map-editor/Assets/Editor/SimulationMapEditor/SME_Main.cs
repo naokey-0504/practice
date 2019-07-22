@@ -13,7 +13,7 @@ namespace AlterEditor.SimulationMapEditor
         private Sprite m_BgSprite;
         private string m_PrefabDirectory = "";
         private string m_PrefabName = "";
-	    
+
         [MenuItem("Window/Editor/SimulationMapEditor/Main")]
         static void Open()
         {

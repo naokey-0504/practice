@@ -1,5 +1,6 @@
 using System;
 using UnityEditor;
+using UnityEditor.Experimental.U2D;
 using UnityEngine;
 
 namespace AlterEditor.SimulationMapEditor
@@ -28,21 +29,27 @@ namespace AlterEditor.SimulationMapEditor
                     : null;
                 if (obj != null)
                 {
-#if true //マス目に合わせて吸着するように
-                    var point = Input.mousePosition;
-                    point.x = (int) (point.x / m_GridSize.x) * m_GridSize.x;
-                    point.y = (int) (point.y / m_GridSize.y) * m_GridSize.y;
-                    point.z = m_Distance;
-                    point = m_Camera.ScreenToWorldPoint(point);
-                    obj.transform.position = point;
-#endif
+                    if (SimulationMapEditorManager.Instance.isGridMode)
+                    {
+                        //マス目に合わせて吸着するように
+                        var sizeDelta = obj.GetComponent<MapObject>().gridSize;
+                        var scale = obj.transform.localScale;
+                        var gridSize = new Vector2(sizeDelta.x * scale.x, sizeDelta.y * scale.y);
 
-#if false //マウスカーソルの座標に合わせて
-                    var pos = Input.mousePosition;
-                    pos.z = m_Distance;
-                    pos = m_Camera.ScreenToWorldPoint(pos);
-                    obj.transform.position = pos;
-#endif
+                        var point = Input.mousePosition;
+                        var offsetX = (int) gridSize.x % 2 == 0 ? m_GridSize.x / 2f : 0f;
+                        var offsetY = (int) gridSize.y % 2 == 0 ? m_GridSize.y / 2f : 0f;
+                        point.x = (int) (point.x / m_GridSize.x) * m_GridSize.x + offsetX;
+                        point.y = (int) (point.y / m_GridSize.y) * m_GridSize.y + offsetY;
+                        point.z = m_Distance;
+                        obj.transform.position = m_Camera.ScreenToWorldPoint(point) + new Vector3(0.1f, 0.1f, 0f);
+                    } else {
+                        //マウスカーソルの座標に合わせて
+                        var pos = Input.mousePosition;
+                        pos.z = m_Distance;
+                        pos = m_Camera.ScreenToWorldPoint(pos);
+                        obj.transform.position = pos;
+                    }
                 }
             }
         }
