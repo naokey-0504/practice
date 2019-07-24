@@ -4,7 +4,6 @@ using UnityEditor;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using BattleFiledCreator;
 using UnityEngine.UI;
 
 namespace AlterEditor.SimulationMapEditor
@@ -19,6 +18,7 @@ namespace AlterEditor.SimulationMapEditor
         private Vector2 scrollPos;
 
         int m_SelectedToggle;
+        private bool m_IsGridMode = false;
         
         private string m_PrefabPath = "Prefabs/Parts/";
 
@@ -40,6 +40,14 @@ namespace AlterEditor.SimulationMapEditor
             
             GUILayout.Label( "プレハブのパス" );
             m_PrefabPath = GUILayout.TextField(m_PrefabPath);
+            
+            GUILayout.Label( "グリッドモード" );
+            string btnText = "グリッドモードを" + (m_IsGridMode ? "OFF" : "ON") + "にする";
+            if (GUILayout.Button(btnText))
+            {
+                m_IsGridMode = !m_IsGridMode;
+                SimulationMapEditorManager.Instance.SetIsGridMode(m_IsGridMode);
+            }
             
             GUILayout.Label( "プレハブのインポート" );
             if (GUILayout.Button("Import"))

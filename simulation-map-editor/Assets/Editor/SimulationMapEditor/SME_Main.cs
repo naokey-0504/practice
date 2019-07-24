@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 using UnityEditor;
 using System.Collections;
-using BattleFiledCreator;
 using UnityEngine.UI;
 
 namespace AlterEditor.SimulationMapEditor
@@ -14,7 +13,7 @@ namespace AlterEditor.SimulationMapEditor
         private Sprite m_BgSprite;
         private string m_PrefabDirectory = "";
         private string m_PrefabName = "";
-	    
+
         [MenuItem("Window/Editor/SimulationMapEditor/Main")]
         static void Open()
         {
@@ -23,8 +22,7 @@ namespace AlterEditor.SimulationMapEditor
 
         public void OnEnable()
         {
-            m_PrefabDirectory = "/Resources/Prefabs";
-            BattleFieldCreatorManager.Instance.Init();
+            m_PrefabDirectory = "Resources/Prefabs/Stage";
         }
 
         void OnGUI()
@@ -32,14 +30,14 @@ namespace AlterEditor.SimulationMapEditor
             GUILayout.Label( "0. 必要なプレハブをロードする" );
             if (GUILayout.Button("Load"))
             {
-                BattleFieldCreatorManager.Instance.LoadFieldPrefab();
+                SimulationMapEditorManager.Instance.LoadFieldPrefab();
             }
             
             GUILayout.Space(kSpace);
             GUILayout.Label( "1. 作成に必要なGameObjectを配置する" );
             if (GUILayout.Button("Create Base"))
             {
-                BattleFieldCreatorManager.Instance.CreateBaseObject();
+                SimulationMapEditorManager.Instance.CreateBaseObject();
             }
 		    
             GUILayout.Space(kSpace);
@@ -51,8 +49,8 @@ namespace AlterEditor.SimulationMapEditor
                 m_BgSprite = sprite;
                 if (sprite != null)
                 {
-                    BattleFieldCreatorManager.Instance.SetBgTexture(sprite);
-                    BattleFieldCreatorManager.Instance.ReflectBgTexture();
+                    SimulationMapEditorManager.Instance.SetBgTexture(sprite);
+                    SimulationMapEditorManager.Instance.ReflectBgTexture();
                 }
             }
 		    
@@ -73,7 +71,7 @@ namespace AlterEditor.SimulationMapEditor
             m_PrefabName = GUILayout.TextField(m_PrefabName);
             if (GUILayout.Button("Output Stage"))
             {
-                BattleFieldCreatorManager.Instance.OutputStage(Application.dataPath + "/" + m_PrefabDirectory, m_PrefabName);
+                SimulationMapEditorManager.Instance.OutputStage(Application.dataPath + "/" + m_PrefabDirectory, m_PrefabName);
             }
         }
     }

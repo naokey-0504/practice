@@ -13,9 +13,24 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="QuestEditor" t="Include">
+            <e p="QuestEditorController.cs" t="Include" />
+            <e p="QuestEditorManager.cs" t="Include" />
+            <e p="Task" t="Include">
+              <e p="DrawGridTask.cs" t="Include" />
+              <e p="InitTask.cs" t="Include" />
+              <e p="LoadSimurationMap.cs" t="Include" />
+              <e p="TaskBase.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="EventBase.cs" t="Include" />
+              <e p="GridBase.cs" t="Include" />
+              <e p="MetaWindow.cs" t="Include" />
+            </e>
+          </e>
           <e p="SimulationMapEditor" t="Include">
-            <e p="BattleFieldCreatorManager.cs" t="Include" />
             <e p="SimulationMapController.cs" t="Include" />
+            <e p="SimulationMapEditorManager.cs" t="Include" />
           </e>
           <e p="SingletonMonoBehaviour.cs" t="Include" />
         </e>
