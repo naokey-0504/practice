@@ -1,5 +1,6 @@
 using System;
 using System.IO;
+using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
@@ -15,13 +16,18 @@ namespace AlterEditor.SimulationMapEditor
 
         private FiledMapPrefab m_FiledMapPrefabBase;
         private FiledMapPrefab m_FiledMapPrefab;
+
+        [SerializeField] private Camera m_Camera;
+        private float m_CameraDistance = 0f;
         
         [SerializeField] private GridBase m_GridBase;
+        private Vector3 m_GridSpace;
+        private List<GridBase> m_GridList = new List<GridBase>();
         [SerializeField] private Transform m_GridParent;
         [SerializeField] private GridLayoutGroup m_GridLayoutGroup;
         
         private Sprite m_BgTexture;
-
+        
         private bool m_IsGridMode = false;
         public bool isGridMode
         {
@@ -37,7 +43,9 @@ namespace AlterEditor.SimulationMapEditor
         {
             m_Root = transform.Find("Root");
             m_SimulationMap = searchSimulationMap();
+            m_GridList.Clear();
             m_GridLayoutGroup.cellSize = m_GridBase.GetComponent<RectTransform>().sizeDelta;
+            m_CameraDistance = m_Camera.WorldToScreenPoint(GameObject.Find("Object").transform.position).z;
             if (m_FiledMapPrefab == null)
             {
                 m_FiledMapPrefab = m_SimulationMap.GetComponent<FiledMapPrefab>();
@@ -59,7 +67,7 @@ namespace AlterEditor.SimulationMapEditor
                     Resources.Load<FiledMapPrefab>("Prefabs/SimulationMapEditor/FieldBasePrefab");
             }
         }
-        
+
         public void DrawGrid(int col, int row)
         {
             m_GridLayoutGroup.constraintCount = col;
@@ -71,6 +79,41 @@ namespace AlterEditor.SimulationMapEditor
                     grid.gameObject.SetActive(true);
                     grid.SetText(string.Format("({0}, {1})", c, r));
                     grid.SetGridPos(new Vector2(c, r));
+                    grid.AddOnClick(() => { onClickGrid(grid); });
+                    m_GridList.Add(grid);
+                }
+            }
+        }
+
+        public void CalcGridSpace(int col)
+        {
+            if (0 < m_GridList.Count)
+            {
+                m_GridSpace.x = m_GridList[1].transform.position.x - m_GridList[0].transform.position.x;
+                m_GridSpace.y = 0f;
+                m_GridSpace.z = m_GridList[col].transform.position.z - m_GridList[0].transform.position.z;
+            }
+            else
+            {
+                m_GridSpace = Vector3.zero;
+            }
+        }
+
+        private void onClickGrid(GridBase grid)
+        {
+            var activeGameObject = Selection.activeGameObject != null
+                ? Selection.activeGameObject.GetComponent<MapObject>()
+                : null;
+            if (activeGameObject != null)
+            {
+                if (SimulationMapEditorManager.Instance.isGridMode)
+                {
+                    //マス目に合わせて吸着するように
+                    // ただし、偶数サイズの場合、マス目に合うようにオフセットする
+                    var position = grid.transform.position;
+                    position.x += (int) activeGameObject.gridSize.x % 2 == 0 ? m_GridSpace.x / 2f : 0f;
+                    position.z += (int) activeGameObject.gridSize.y % 2 == 0 ? m_GridSpace.z / 2f : 0f;
+                    activeGameObject.transform.position = position;
                 }
             }
         }
