@@ -61,7 +61,7 @@ namespace AlterEditor.SimulationMapEditor
             
             m_SelectedToggle = GUILayout.Toolbar (m_SelectedToggle, m_PartsDic.Keys.ToArray(), EditorStyles.toolbarButton);
 
-            GUILayout.BeginArea(new Rect(0, 100, screenW, 500));
+            GUILayout.BeginArea(new Rect(0, 130, screenW, 500));
             GUILayout.BeginVertical();
  
             scrollPos = GUILayout.BeginScrollView(scrollPos,false,true, GUILayout.Width(screenW),GUILayout.MinHeight(200),GUILayout.MaxHeight(1000),GUILayout.ExpandHeight(true));
