@@ -275,10 +275,9 @@ public class AstarAlgorithm
 	/// <summary>
 	/// 探索結果を取得する
 	/// </summary>
-	public Result.Kind GetResult(out Vector3[] path)
+	public Result GetResult()
 	{
-		path = m_Result.path;
-		return m_Result.kind;
+		return m_Result;
 	}
 
 	/// <summary>
